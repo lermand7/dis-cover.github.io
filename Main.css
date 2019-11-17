@@ -1,0 +1,521 @@
+body {
+    background-image: url("seamless.jpg");
+    background-repeat:repeat;
+	background-size: 300px 300px;
+}
+
+#banner {
+	display: block;
+	margin-top: 30px;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainmenu li{
+	width: 110px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+}
+
+.maintable td{
+	border: solid px black;
+}
+
+.spacer {
+	height: 10px;
+}
+
+.maintable #bar {
+	background-image: url("search.jpg");
+	background-repeat: no-repeat;
+	background-size: 1300px 50px;
+	height: 55px;
+}
+
+.maintable #logo{
+	width: 200px;
+	text-align: center;
+}
+
+.maintable {
+	border-collapse: collapse;
+	width: 1100px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 30px;
+}
+
+.maintable #row{
+	height: 50px;
+	text-align: center;
+	background-color: #f55e18;
+	color: white;
+	font-size:20px;
+	border-bottom: black 3px solid; 
+}
+
+.maintable #row td:hover{ 
+	background-color: #f7bf99;
+	cursor: pointer;
+}
+
+.maintable #row a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+}
+
+.mobile-menu {
+	line-height: 60px;
+    height: 60px;
+	vertical-align:middle;
+	background-color: #f55e18;
+	margin-top: 20px;
+	display: none;
+	color: white;
+	text-align: center;
+}
+
+#menu-image {
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+#menu-image:hover {
+	cursor: pointer;
+}
+
+.search {
+	border: 0;
+	margin-top: 3px;
+	margin-left: 65px;
+	border-bottom: #f55e18 2px solid;
+	width: 300px;
+}
+
+#login1 {
+	margin-right: 10px;
+	float: right;
+	margin-top: -2px;
+}
+
+#register1 {
+	margin-right: 10px;
+	float: right;
+	margin-top: -2px;
+}
+
+#login2 {
+	display: none;
+	margin-right: 10px;
+	float: right;
+	margin-top: 10px;
+}
+
+#register2 {
+	display: none;
+	margin-right: 10px;
+	float: right;
+	margin-top: 10px;
+}
+
+#mobile-menu2 {
+	display: none;
+	background-color: white;
+	height: 250px;
+}
+
+#mobile-menu2 li{
+	list-style-type: none;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#mobile-menu2 li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#mobile-menu2 li:nth-child(1) {
+	height: 10px;
+}
+
+#exampleSlider {
+    position: relative;
+	margin-top: 20px;
+	width: 1100px;
+	border: transparent solid 2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#exampleSlider .MS-content {
+    white-space: nowrap;     /* required */
+    overflow: hidden;        /* required */
+	margin-top: 35px;
+	margin-left:auto;
+	margin-right:auto;
+	border: #f55e18 4px solid;
+}
+#exampleSlider .MS-content .item {
+    display: inline-block;   /* required */
+    width: 25%;              /* required * Determines number of visible slides */
+    position: relative;      /* required */
+    vertical-align: top;     /* required */
+    overflow: hidden;        /* required */
+    height: 100%;            /* recommended */
+    white-space: normal;     /* recommended */
+	border-top: black 4px solid;
+	border-bottom: white 4px solid;
+	border-left: white 4px solid;
+	border-right: black 4px solid;
+	cursor: pointer;
+}
+#exampleSlider .MS-controls button {
+    position: absolute;
+	border: none;
+	background: #f55e18;
+	font-size: 30px;
+	outline: 0;	
+}
+#exampleSlider .MS-controls #Title {
+    position: absolute;
+	width: 175px;
+	height: 50px;
+	background: #f55e18;
+	font-size: 25px;
+	top: -4px;
+	color: white;
+}
+#exampleSlider .MS-controls a {
+    margin-left: 4px;
+}
+#exampleSlider .MS-controls .MS-left {
+    right: 35px;
+	top: -5px;
+}
+#exampleSlider .MS-controls .MS-right {
+	right: 0px;
+	top: -5px;
+}
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 25%;
+  }
+}
+@media (max-width: 840px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+
+#Card-title {
+	position: relative;
+	margin-top: 20px;
+	width: 700px;
+}
+
+#center {
+	position: relative;
+	margin-top: 20px;
+	width: 1100px;
+	height: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	border: transparent 2px solid;
+}
+
+#Side-title {
+	position: relative;
+	margin-top: 22px;
+	width: 370px;
+	border: transparent solid 2px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: -70px;
+}
+
+#Title2 {
+	position: absolute;
+	width: 175px;
+	height: 40px;
+	background: #f55e18;
+	font-size: 25px;
+	top: -4px;
+	color: white;
+}
+
+#Title3 {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	background: #4aa5ad;
+	font-size: 25px;
+	top: -4px;
+}
+
+#Side-border {
+	position: relative;
+	height: 40px;
+	width: 370px;
+	border-bottom: #4aa5ad solid 4px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#Title2 a{
+	margin-left: 5px;
+	color: white;
+}
+
+#Title3 a{
+	margin-left: 5px;
+	color: white;
+}
+
+#border {
+	position: relative;
+	height: 40px;
+	width: 700px;
+	border-bottom: #f55e18 solid 4px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#Cards-holder {
+	position: relative;
+	top: 10px;
+	margin-top: 20px;
+	width: 730px;
+	border: transparent solid 2px;
+}
+
+#card1 {
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	height: 250px;
+	width: 330px;
+	margin-right: 35px;
+	border-bottom: #f55e18 4px solid;
+	margin-bottom: 20px;
+}
+
+#card {
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	height: 250px;
+	width: 330px;
+	border-bottom: #f55e18 4px solid;
+	margin-bottom: 20px;
+}
+
+#card:hover, #card1:hover {
+	cursor: pointer;
+}
+
+#card img, #card1 img {
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: black 2px solid;
+}
+
+#card1 a, #card a {
+	font-size: 20px;
+}
+
+#card1 #left-t, #card #left-t{
+	margin-left: 5px;
+	color: black;
+	font-size: 20px;
+}
+
+#card1 #left-b, #card #left-b{
+	position: absolute;
+	left: 5px;
+	bottom: 0px;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+}
+
+#card1 #right-t, #card #right-t{
+	float: right;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+#card1 #right-b, #card #right-b{
+	position: absolute;
+	right: 5px;
+	bottom: -2px;
+	margin-right: 5px;
+	font-size: 20px;
+	font-family: "Segoe Script";
+}
+
+#side {
+	position: relative;
+	margin-top: 63px;
+	width: 369px;
+	height: 150px;
+	left: -2px;
+	margin-left:auto;
+	margin-right:auto;
+	float: right;
+}
+
+#side table{
+	width: 100%;
+	background-color: white;
+}
+
+#side table td{
+	border: transparent solid 2px;
+	width: 33.333%;
+}
+
+#side table a:hover {
+	cursor: pointer;
+}
+
+#side table tr:nth-child(even){
+	background-color: #adadad;
+}
+
+#side table tr:nth-child(4){
+	background-color: #7acdd3;
+	height: 28px;
+}
+
+#Side-title2 {
+	position: relative;
+	margin-top: 220px;
+	width: 370px;
+	border: transparent solid 2px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: -70px;
+}
+
+#side2 {
+	position: relative;
+	margin-top: 43px;
+	width: 369px;
+	height: 130px;
+	left: -2px;
+	margin-left:auto;
+	margin-right:auto;
+	float: right;
+}
+
+#side2 table{
+	width: 100%;
+	background-color: white;
+}
+
+#side2 table td{
+	border: transparent solid 2px;
+	width: 33.333%;
+}
+
+#side2 table a:hover {
+	cursor: pointer;
+}
+
+#side2 table tr:nth-child(even){
+	background-color: #adadad;
+}
+
+#Side-title3 {
+	position: relative;
+	margin-top: 200px;
+	width: 370px;
+	border: transparent solid 2px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: -70px;
+}
+
+#side3 {
+	position: relative;
+	margin-top: 40px;
+	width: 370px;
+	height: 130px;
+	left: -1px;
+	margin-left:auto;
+	margin-right:auto;
+	float: right;
+	background-color: white;
+	border: #4aa5ad 2px solid;
+}
+
+#side3 p{
+	margin-left: 5px;
+}
+
+#right {
+	top: -65px;
+	position: relative;
+	width: 375px;
+	float: right;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	background-color: #7acdd3;
+	border-top: white 2px solid;
+}
+
+#footer p {
+	height: 10px;
+}
+
+#footer h3 {
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px)
+{
+	#row { display: none; }
+	#register1 { display: none; }
+	#login1 { display: none; }
+	#register2 { display: block; }
+	#login2 { display: block; }
+	#spacer1 { display: none; }
+	.maintable {width: 100%;  background-color: white; 	margin-top: 0px;}
+	.mobile-menu {display: block;}
+	#exampleSlider .MS-controls button { display: none; }
+	#card1 {float: none;}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.maintable {width: 100%;}
+	#exampleSlider {width: 100%;}
+	#Side-title { display: none; }
+	#Side-title2 { display: none; }
+	#Side-title3 { display: none; }
+	#right {display: none;}
+	#side { display: none; }
+	#side2 { display: none; }
+	#side3 { display: none; }
+	#border {width: 100%;}
+	#Card-title {width: 100%;}
+	#Cards-holder {	top: 0px; }
+	#banner {width: 100%;}
+	#center {height: 1720px;}
+}
+
+@media screen and (min-width: 769px)
+{
+	#mobile-menu2 {display: none !important;}
+}
